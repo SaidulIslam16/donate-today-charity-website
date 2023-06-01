@@ -111,10 +111,20 @@ h2 {
 .plan {
     max-width: 30%;
     padding: 10px;
+    border-radius: 5px;
 
 }
 
 .food {
     background-color: rgba(79, 157, 166, 0.1);
     ;
+}
+
+.shelter {
+    background-color: rgba(255, 89, 89, 0.1);
+    ;
+}
+
+.education {
+    background-color: #FFF4D6;
 }

@@ -95,7 +95,8 @@ h2 {
 .donation-input {
     display: block;
     border: none;
-    border-bottom: 1px solid #707070;
+    width: 600px;
+    border-bottom: 1px solid #adadad;
     text-align: center;
     margin: 30px auto;
     font-size: 18px;
@@ -154,4 +155,19 @@ h2 {
 .news-letter input {
     padding: 17px;
     width: 300px;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 30px 0;
+}
+
+footer h2 {
+    color: #FF5959;
+    margin: 0;
+}
+
+footer p {
+    margin: 0;
 }

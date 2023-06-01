@@ -52,8 +52,8 @@ h1 {
 
 .button:hover {
     background-color: #fc4242;
-    border: 2px solid white;
-    box-shadow: 5px 5px 20px rgb(0, 0, 0);
+    /* border: 2px solid white; */
+    /* box-shadow: 5px 5px 20px rgb(0, 0, 0); */
 }
 
 /* Donate Section */
@@ -75,6 +75,8 @@ h2 {
     font-size: 36px;
     font-weight: 700;
     color: #707070;
+    display: block;
+    border: 2px solid transparent;
 }
 
 .donation-item:hover {
@@ -104,7 +106,7 @@ h2 {
     justify-content: space-between;
 }
 
-.donation {
+.width-container {
     padding: 0 10%;
 }
 
@@ -127,4 +129,12 @@ h2 {
 
 .education {
     background-color: #FFF4D6;
+}
+
+.blog-section {
+    display: flex;
+}
+
+.blog img {
+    max-width: 500px;
 }
